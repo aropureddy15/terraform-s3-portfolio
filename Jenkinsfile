@@ -1,7 +1,6 @@
 pipeline {
 agent any
 
-```
 options {
     timestamps()
     disableConcurrentBuilds()
@@ -91,6 +90,4 @@ post {
         deleteDir()
     }
 }
-```
-
 }
